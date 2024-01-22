@@ -254,3 +254,19 @@ p {
     object-fit: cover;
     
 }
+
+footer {
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #212121;
+}
+
+footer ul {
+    flex: 0.05;
+    display: flex;
+}
+
+footer li {
+    margin-left: 8px;
+}
