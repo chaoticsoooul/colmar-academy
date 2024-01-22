@@ -138,7 +138,7 @@ nav li {
 
 }
 
-.feature-info p {
+p {
     padding: 8px 0px;
     font-size: 0.8rem;
     color: grey;
@@ -158,4 +158,40 @@ nav li {
     width: 35%;
     height: auto;
     
+}
+
+.subjects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 56px;
+}
+
+.subjects ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.subjects li {
+    max-width: 30%;
+    margin: 16px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.subjects h1 {
+    margin-bottom: 32px;
+}
+
+
+.subjects img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+
+}
+
+.subject-info {
+    padding: 16px;
 }
